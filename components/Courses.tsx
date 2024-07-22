@@ -31,7 +31,7 @@ const Courses = () => {
   return (
     <section
       id="courses"
-      className="bg-white text-[#0077b6] py-20 md:py-32 flex flex-col items-center"
+      className="bg-white text-[#428c9d] py-20 md:py-32 flex flex-col items-center"
     >
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center">Our Courses</h2>
@@ -41,7 +41,7 @@ const Courses = () => {
             variants={boxVariant}
             initial="hidden"
             animate={control}
-            className="box bg-white text-[#0077b6] border rounded-lg"
+            className="box bg-white text-[#428c9d] border rounded-lg"
           >
             <CardHeader>
               <CardTitle>Basic Leadership Course</CardTitle>
@@ -60,7 +60,7 @@ const Courses = () => {
             variants={boxVariant}
             initial="hidden"
             animate={control}
-            className="box bg-white text-[#0077b6] border rounded-lg"
+            className="box bg-white text-[#428c9d] border rounded-lg"
           >
             <CardHeader>
               <CardTitle>Advanced Leadership Course</CardTitle>
@@ -79,7 +79,7 @@ const Courses = () => {
             variants={boxVariant}
             initial="hidden"
             animate={control}
-            className="box bg-white text-[#0077b6] border rounded-lg md:col-span-2 lg:col-span-1"
+            className="box bg-white text-[#428c9d] border rounded-lg md:col-span-2 lg:col-span-1"
           >
             <CardHeader>
               <CardTitle>Executive Leadership Course</CardTitle>

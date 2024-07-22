@@ -18,7 +18,7 @@ const ContactUs = () => {
           <Button aria-label="contact@butli.org" variant={"outline"}>
             <Link
               href="mailto:contact@butli.org"
-              className="text-[#0077b6] hover:underline"
+              className="text-[#428c9d] hover:underline"
               prefetch={false}
             >
               contact@butli.org
