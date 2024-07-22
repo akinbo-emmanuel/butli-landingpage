@@ -25,16 +25,16 @@ const Header = () => {
           <Link href="#" className="hover:underline" prefetch={false}>
             Home
           </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
+          <Link href="#about" className="hover:underline" prefetch={false}>
             About
           </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
+          <Link href="#courses" className="hover:underline" prefetch={false}>
             Courses
           </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
+          <Link href="#calendar" className="hover:underline" prefetch={false}>
             Calendar
           </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
+          <Link href="#contact" className="hover:underline" prefetch={false}>
             Contact
           </Link>
         </nav>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 const Hero = () => {
@@ -9,13 +10,20 @@ const Hero = () => {
           Unlock Your Leadership Potential
         </h1>
         <p className="text-lg md:text-xl font-semibold max-w-2xl fade-in-5 animate-slideUp">
-          BuiltUp Leadership Institute (BUTLI) is dedicated to empowering individuals
-          with the skills and knowledge to become transformative kingdom leaders in
-          their communities and organizations.
+          BuiltUp Leadership Institute (BUTLI) is dedicated to empowering
+          individuals with the skills and knowledge to become transformative
+          kingdom leaders in their communities and organizations.
         </p>
         <div className="flex gap-4 fade-in-5 animate-slideUp">
-          <Button aria-label="Explore Courses">Explore Courses</Button>
-          <Button variant="outline" aria-label="Contact Us" className="text-[#428c9d]">
+          <Link href="#courses">
+            <Button aria-label="Explore Courses">Explore Courses</Button>
+          </Link>
+
+          <Button
+            variant="outline"
+            aria-label="Contact Us"
+            className="text-[#428c9d]"
+          >
             Contact Us
           </Button>
         </div>
