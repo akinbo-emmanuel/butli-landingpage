@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 h-full w-full bg-black bg-opacity-40 z-10"></div>
       <div className="container mx-auto min-h-[91dvh] md:min-h-[93dvh] mt-20 text-white flex flex-col items-center justify-center text-center space-y-6 py-20 md:py-32 relative z-20 fade-in-5 animate-slideUp">
         <h1 className="text-3xl md:text-5xl font-bold fade-in-5 animate-slideUp">
-          Unlock Your Leadership Potential
+          Building Your Leadership Potential
         </h1>
         <p className="text-lg md:text-xl font-semibold max-w-2xl fade-in-5 animate-slideUp">
           BuiltUp Leadership Institute (BUTLI) is dedicated to empowering
