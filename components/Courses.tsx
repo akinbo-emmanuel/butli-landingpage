@@ -47,7 +47,7 @@ const Courses = () => {
               <CardTitle>Basic Leadership Course</CardTitle>
               <CardDescription className="text-[#6b7280] text-xs">
                 A foundational course designed to introduce essential leadership
-                principles for adults (age 18 and above).
+                principles for adults.
               </CardDescription>
             </CardHeader>
             <CardFooter>
@@ -65,7 +65,7 @@ const Courses = () => {
             <CardHeader>
               <CardTitle>Advanced Leadership Course</CardTitle>
               <CardDescription className="text-[#6b7280]">
-                An in-depth course for experienced leaders (age 18 and above)
+                An in-depth course for experienced leaders
                 looking to enhance their skills.
               </CardDescription>
             </CardHeader>
@@ -84,7 +84,7 @@ const Courses = () => {
             <CardHeader>
               <CardTitle>Executive Leadership Course</CardTitle>
               <CardDescription className="text-[#6b7280]">
-                A comprehensive course for executives (age 18 and above) to
+                A comprehensive course for executives to
                 refine their leadership strategies.
               </CardDescription>
             </CardHeader>

@@ -3,7 +3,8 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import "animate.css/animate.compat.css"
+import "animate.css/animate.compat.css";
+import Footer from "@/components/Footer";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -22,7 +23,11 @@ export default function RootLayout({
       <body className={manrope.className}>
         <Header />
 
-        <ScrollArea className="h-screen bg-gray-500">{children}</ScrollArea>
+        <ScrollArea className="h-screen bg-gray-500">
+          <main>{children}</main>
+
+          <Footer />
+        </ScrollArea>
       </body>
     </html>
   );

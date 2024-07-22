@@ -9,8 +9,8 @@ const Hero = () => {
           Unlock Your Leadership Potential
         </h1>
         <p className="text-lg md:text-xl font-semibold max-w-2xl fade-in-5 animate-slideUp">
-          BuiltUp Leadership Institute is dedicated to empowering individuals
-          with the skills and knowledge to become transformative leaders in
+          BuiltUp Leadership Institute (BUTLI) is dedicated to empowering individuals
+          with the skills and knowledge to become transformative kingdom leaders in
           their communities and organizations.
         </p>
         <div className="flex gap-4 fade-in-5 animate-slideUp">

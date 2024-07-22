@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Calendar from "@/components/Calendar";
+import ContactUs from "@/components/ContactUs";
 import Courses from "@/components/Courses";
 import Hero from "@/components/Hero";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Courses />
       <Calendar />
+      <ContactUs />
     </main>
   );
 }
