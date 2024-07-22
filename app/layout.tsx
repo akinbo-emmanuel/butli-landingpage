@@ -3,6 +3,7 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import "animate.css/animate.compat.css"
 
 const manrope = Manrope({ subsets: ["latin"] });
 

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 z-30 bg-white w-full text-black shadow-lg animate-slideDown animate-fadeIn">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center">
           <Image
             src="https://res.cloudinary.com/dypvfvu6i/image/upload/v1721618698/BUTLI/BUTLI_Black_Logo_-removebg_mjdcax.png"
             alt="BUTLI Logo"

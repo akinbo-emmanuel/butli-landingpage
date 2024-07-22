@@ -41,6 +41,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         fadeIn: "fadeIn 1s ease-out",
         slideUp: "slideUp 1s ease-out",
+        slideDown: 'slideDown 1s ease-out',
       },
     },
   },

@@ -1,4 +1,6 @@
 import About from "@/components/About";
+import Calendar from "@/components/Calendar";
+import Courses from "@/components/Courses";
 import Hero from "@/components/Hero";
 
 export default function Home() {
@@ -6,6 +8,8 @@ export default function Home() {
     <main className="flex flex-col min-h-[100dvh] text-white">
       <Hero />
       <About />
+      <Courses />
+      <Calendar />
     </main>
   );
 }
