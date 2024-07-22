@@ -27,16 +27,19 @@ const Hero = () => {
             Contact Us
           </Button>
         </div>
-        <div className="bg-white text-[#428c9d] font-medium p-4 rounded-lg fade-in-5 animate-slideUp">
-          <p>
-            &quot;And now I commend you to God and to the word of his grace,
-            which is able to build you up and to give you the inheritance among
-            all those who are sanctified.&quot; (Acts 20:32)
+        <div className="bg-white text-[#428c9d] md:w-96 font-medium p-4 rounded-lg fade-in-5 animate-slideUp">
+          <p className="text-sm">
+            Here at BuiltUp Leadership Institute (BUTLI)<br/>We Identify<br/>We Build &<br/>We Deploy Kingdom Leaders{" "}
           </p>
-          <p>
-            &quot;And the word of God continued to increase, and the number of
+          <p className="text-xs mt-2">
+            And now I commend you to God and to the word of his grace,
+            which is able to build you up and to give you the inheritance among
+            all those who are sanctified. (Acts 20:32)
+          </p>
+          <p className="text-xs">
+            And the word of God continued to increase, and the number of
             the disciples multiplied greatly in Jerusalem, and a great many of
-            the priests became obedient to the faith.&quot; (Acts 6:7)
+            the priests became obedient to the faith. (Acts 6:7)
           </p>
         </div>
       </div>

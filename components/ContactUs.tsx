@@ -14,14 +14,24 @@ const ContactUs = () => {
         <p className="text-[#6b7280] text-center mb-8">
           Have any questions or need more information? Reach out to us.
         </p>
-        <div className="flex justify-center">
-          <Button aria-label="contact@butli.org" variant={"outline"}>
+        <div className="flex flex-col md:flex-row justify-center gap-2">
+          <Button aria-label="butlileadership@gmail.com" variant={"outline"}>
             <Link
-              href="mailto:contact@butli.org"
+              href="mailto:butlileadership@gmail.com"
               className="text-[#428c9d] hover:underline"
               prefetch={false}
             >
-              contact@butli.org
+              butlileadership@gmail.com
+            </Link>
+          </Button>
+
+          <Button aria-label="+2348104997075" variant={"outline"}>
+            <Link
+              href="tel:+2348104997075"
+              className="text-[#428c9d] hover:underline"
+              prefetch={false}
+            >
+              +2348104997075
             </Link>
           </Button>
         </div>

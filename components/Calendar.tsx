@@ -15,19 +15,6 @@ const Calendar = () => {
           Plan your year with our detailed training calendar.
         </p>
         <div className="flex flex-col items-center gap-4">
-          <div className="bg-white text-[#428c9d] p-4 rounded-lg shadow-md w-full max-w-md">
-            <h3 className="text-2xl font-bold mb-2">
-              Upcoming Events
-            </h3>
-            <ul className="space-y-2">
-              <li>
-                International Young Leaders Conference
-              </li>
-              <li>
-                BUTLI School of Leadership and Management
-              </li>
-            </ul>
-          </div>
           <Button aria-label="View Calendar" variant={"outline"}>
             <Link
               href="#"
@@ -37,6 +24,13 @@ const Calendar = () => {
               View Calendar
             </Link>
           </Button>
+          <div className="bg-white text-[#428c9d] p-4 rounded-lg shadow-md w-full max-w-md">
+            <h3 className="text-2xl font-bold mb-2">Upcoming Projects</h3>
+            <ul className="space-y-2">
+              <li>International Young Leaders Conference</li>
+              <li>BUTLI School of Leadership and Management</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
