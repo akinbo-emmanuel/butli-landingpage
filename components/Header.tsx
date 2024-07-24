@@ -7,7 +7,15 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 z-30 bg-white w-full text-black shadow-lg animate-slideDown animate-fadeIn">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center">
+        <Image
+          src={
+            "https://res.cloudinary.com/dypvfvu6i/image/upload/v1721809851/BUTLI_Black_Logo-removebg_sgfbuf.png"
+          }
+          alt="BUTLI's logo"
+          height={0}
+          width={70}
+        />
+        {/* <div className="flex items-center">
           <Image
             src="https://res.cloudinary.com/dypvfvu6i/image/upload/v1721618698/BUTLI/BUTLI_Black_Logo_-removebg_mjdcax.png"
             alt="BUTLI Logo"
@@ -19,7 +27,7 @@ const Header = () => {
             BuiltUp Leadership Institute
           </h1>
           <h1 className="lg:hidden text-3xl font-bold">BUTLI</h1>
-        </div>
+        </div> */}
 
         <nav className="space-x-4 hidden md:flex text-sm">
           <Link href="#" className="hover:underline" prefetch={false}>
