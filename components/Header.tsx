@@ -7,42 +7,32 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 z-30 bg-white w-full text-black shadow-lg animate-slideDown animate-fadeIn">
       <div className="container mx-auto flex justify-between items-center">
-        <Image
-          src={
-            "https://res.cloudinary.com/dypvfvu6i/image/upload/v1721809851/BUTLI_Black_Logo-removebg_sgfbuf.png"
-          }
-          alt="BUTLI's logo"
-          height={0}
-          width={70}
-        />
-        {/* <div className="flex items-center">
+        <div className="flex items-center gap-2">
           <Image
-            src="https://res.cloudinary.com/dypvfvu6i/image/upload/v1721618698/BUTLI/BUTLI_Black_Logo_-removebg_mjdcax.png"
+            src="https://res.cloudinary.com/dypvfvu6i/image/upload/v1721903081/logo_qdxn1g.png"
             alt="BUTLI Logo"
-            width={60}
-            height={60}
-            className="h-20 w-20"
+            width={70}
+            height={70}
           />
-          <h1 className="hidden lg:block text-2xl font-bold">
-            BuiltUp Leadership Institute
+          <h1 className="text-lg font-extrabold text-[#428c9d]">
+            BuiltUp<br/> Leadership Institute
           </h1>
-          <h1 className="lg:hidden text-3xl font-bold">BUTLI</h1>
-        </div> */}
+        </div>
 
         <nav className="space-x-4 hidden md:flex text-sm">
-          <Link href="#" className="hover:underline" prefetch={false}>
+          <Link href="#" className="hover:underline hover:text-[#428c9d]" prefetch={false}>
             Home
           </Link>
-          <Link href="#about" className="hover:underline" prefetch={false}>
+          <Link href="#about" className="hover:underline hover:text-[#428c9d]" prefetch={false}>
             About
           </Link>
-          <Link href="#courses" className="hover:underline" prefetch={false}>
+          <Link href="#courses" className="hover:underline hover:text-[#428c9d]" prefetch={false}>
             Courses
           </Link>
-          <Link href="#calendar" className="hover:underline" prefetch={false}>
+          <Link href="#calendar" className="hover:underline hover:text-[#428c9d]" prefetch={false}>
             Calendar
           </Link>
-          <Link href="#contact" className="hover:underline" prefetch={false}>
+          <Link href="#contact" className="hover:underline hover:text-[#428c9d]" prefetch={false}>
             Contact
           </Link>
         </nav>
