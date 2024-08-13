@@ -11,6 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
+import Link from "next/link";
 
 const Courses = () => {
   const boxVariant = {
@@ -59,7 +60,9 @@ const Courses = () => {
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Button>Enroll Now</Button>
+              <Link href="https://selar.co/m/butli-leadership-institute1">
+                <Button>Enroll Now</Button>
+              </Link>
             </CardFooter>
           </motion.div>
 
@@ -85,9 +88,9 @@ const Courses = () => {
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Button disabled className="disabled:cursor-not-allowed">
-                Enroll Now
-              </Button>
+              <Link href="https://selar.co/m/butli-leadership-institute1">
+                <Button>Enroll Now</Button>
+              </Link>
             </CardFooter>
           </motion.div>
 
@@ -113,9 +116,9 @@ const Courses = () => {
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Button disabled className="disabled:cursor-not-allowed">
-                Enroll Now
-              </Button>
+              <Link href="https://selar.co/m/butli-leadership-institute1">
+                <Button>Enroll Now</Button>
+              </Link>
             </CardFooter>
           </motion.div>
         </div>
