@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center gap-2">
           <Image
-            src="https://res.cloudinary.com/dypvfvu6i/image/upload/v1721903081/logo_qdxn1g.png"
+            src="https://res.cloudinary.com/dypvfvu6i/image/upload/v1721903081/BUTLI/logo_qdxn1g.png"
             alt="BUTLI Logo"
             width={70}
             height={70}

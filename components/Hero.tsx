@@ -19,27 +19,34 @@ const Hero = () => {
             <Button aria-label="Explore Courses">Explore Courses</Button>
           </Link>
 
-          <Button
-            variant="outline"
-            aria-label="Contact Us"
-            className="text-[#428c9d]"
-          >
-            Contact Us
-          </Button>
+          <Link href="#contact">
+            <Button
+              variant="outline"
+              aria-label="Contact Us"
+              className="text-[#428c9d]"
+            >
+              Contact Us
+            </Button>
+          </Link>
         </div>
         <div className="bg-white text-[#428c9d] md:w-96 font-medium p-4 rounded-lg fade-in-5 animate-slideUp">
           <p className="text-sm">
-            Here at BuiltUp Leadership Institute (BUTLI)<br/>We Identify<br/>We Build &<br/>We Deploy Kingdom Leaders{" "}
+            Here at BuiltUp Leadership Institute (BUTLI)
+            <br />
+            We Identify
+            <br />
+            We Build &<br />
+            We Deploy Kingdom Leaders{" "}
           </p>
           <p className="text-xs mt-2">
-            And now I commend you to God and to the word of his grace,
-            which is able to build you up and to give you the inheritance among
-            all those who are sanctified. (Acts 20:32)
+            And now I commend you to God and to the word of his grace, which is
+            able to build you up and to give you the inheritance among all those
+            who are sanctified. (Acts 20:32)
           </p>
           <p className="text-xs">
-            And the word of God continued to increase, and the number of
-            the disciples multiplied greatly in Jerusalem, and a great many of
-            the priests became obedient to the faith. (Acts 6:7)
+            And the word of God continued to increase, and the number of the
+            disciples multiplied greatly in Jerusalem, and a great many of the
+            priests became obedient to the faith. (Acts 6:7)
           </p>
         </div>
       </div>

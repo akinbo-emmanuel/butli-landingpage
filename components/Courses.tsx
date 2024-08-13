@@ -49,7 +49,13 @@ const Courses = () => {
               <CardDescription className="text-[#6b7280]">
                 A foundational course designed to introduce essential leadership
                 principles.
-                <br /> <br /> <span className="font-semibold text-[#428c9d]">Anticipate!!! Coming up in September</span>
+                <br /> <br />{" "}
+                <p className="font-semibold text-[#428c9d]">
+                  Coming up -{" "}
+                  <span className="font-extrabold text-base">
+                    September 2nd to 29th
+                  </span>
+                </p>
               </CardDescription>
             </CardHeader>
             <CardFooter>
@@ -69,6 +75,13 @@ const Courses = () => {
               <CardDescription className="text-[#6b7280]">
                 An in-depth course for experienced leaders looking to enhance
                 their skills.
+                <br /> <br />{" "}
+                <p className="font-semibold text-[#428c9d]">
+                  Anticipate!!! Coming up -{" "}
+                  <span className="font-extrabold text-base">
+                    May 5 - 10, 2025
+                  </span>
+                </p>
               </CardDescription>
             </CardHeader>
             <CardFooter>
@@ -90,6 +103,13 @@ const Courses = () => {
               <CardDescription className="text-[#6b7280]">
                 A comprehensive course for executives to refine their leadership
                 strategies.
+                <br /> <br />{" "}
+                <p className="font-semibold text-[#428c9d]">
+                  Anticipate!!! Coming up -{" "}
+                  <span className="font-extrabold text-base">
+                    August 22 & 23, 2025
+                  </span>
+                </p>
               </CardDescription>
             </CardHeader>
             <CardFooter>
