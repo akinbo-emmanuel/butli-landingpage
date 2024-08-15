@@ -48,13 +48,13 @@ const Courses = () => {
             <CardHeader>
               <CardTitle>Basic Leadership Course</CardTitle>
               <CardDescription className="text-[#6b7280]">
-                A foundational course designed to introduce essential leadership
-                principles.
+                A foundational Course designed to help you understand Self
+                Leadership.
                 <br /> <br />{" "}
                 <p className="font-semibold text-[#428c9d]">
                   Coming up -{" "}
                   <span className="font-extrabold text-base">
-                    September 2nd to 29th
+                    September 2 - 29, 2024
                   </span>
                 </p>
               </CardDescription>
@@ -76,8 +76,8 @@ const Courses = () => {
             <CardHeader>
               <CardTitle>Advanced Leadership Course</CardTitle>
               <CardDescription className="text-[#6b7280]">
-                An in-depth course for experienced leaders looking to enhance
-                their skills.
+                An In-depth course for experienced leaders on how to leader
+                people, organizations and teams in achieving set goals.
                 <br /> <br />{" "}
                 <p className="font-semibold text-[#428c9d]">
                   Anticipate!!! Coming up -{" "}
@@ -104,8 +104,8 @@ const Courses = () => {
             <CardHeader>
               <CardTitle>Executive Leadership Course</CardTitle>
               <CardDescription className="text-[#6b7280]">
-                A comprehensive course for executives to refine their leadership
-                strategies.
+                A comprehensive course work that trains leaders on how to lead
+                other leaders and conglomerates. 
                 <br /> <br />{" "}
                 <p className="font-semibold text-[#428c9d]">
                   Anticipate!!! Coming up -{" "}
