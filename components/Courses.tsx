@@ -51,12 +51,12 @@ const Courses = () => {
                 A foundational Course designed to help you understand Self
                 Leadership.
                 <br /> <br />{" "}
-                <p className="font-semibold text-[#428c9d]">
+                <span className="font-semibold text-[#428c9d]">
                   Coming up -{" "}
                   <span className="font-extrabold text-base">
                     September 2 - 29, 2024
                   </span>
-                </p>
+                </span>
               </CardDescription>
             </CardHeader>
             <CardFooter>
@@ -79,12 +79,12 @@ const Courses = () => {
                 An In-depth course for experienced leaders on how to leader
                 people, organizations and teams in achieving set goals.
                 <br /> <br />{" "}
-                <p className="font-semibold text-[#428c9d]">
+                <span className="font-semibold text-[#428c9d]">
                   Anticipate!!! Coming up -{" "}
                   <span className="font-extrabold text-base">
                     May 5 - 10, 2025
                   </span>
-                </p>
+                </span>
               </CardDescription>
             </CardHeader>
             <CardFooter>
@@ -107,12 +107,12 @@ const Courses = () => {
                 A comprehensive course work that trains leaders on how to lead
                 other leaders and conglomerates. 
                 <br /> <br />{" "}
-                <p className="font-semibold text-[#428c9d]">
+                <span className="font-semibold text-[#428c9d]">
                   Anticipate!!! Coming up -{" "}
                   <span className="font-extrabold text-base">
                     August 22 & 23, 2025
                   </span>
-                </p>
+                </span>
               </CardDescription>
             </CardHeader>
             <CardFooter>
