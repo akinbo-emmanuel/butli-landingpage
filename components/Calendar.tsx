@@ -17,7 +17,8 @@ const Calendar = () => {
         <div className="flex flex-col items-center gap-4">
           <Button aria-label="View Calendar" variant={"outline"}>
             <Link
-              href="#"
+              href="https://drive.google.com/file/d/1XX2TH00da5HuoBLpKjtmxIV5oVzGQbqR/view?usp=sharing"
+              target="_blank"
               className="text-[#428c9d] hover:underline"
               prefetch={false}
             >
