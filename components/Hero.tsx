@@ -29,7 +29,7 @@ const Hero = () => {
             </Button>
           </Link>
         </div>
-        <div className="bg-white text-[#428c9d] md:w-96 font-medium p-4 rounded-lg fade-in-5 animate-slideUp">
+        {/* <div className="bg-white text-[#428c9d] md:w-96 font-medium p-4 rounded-lg fade-in-5 animate-slideUp">
           <p className="text-sm">
             Here at BuiltUp Leadership Institute (BUTLI)
             <br />
@@ -48,7 +48,7 @@ const Hero = () => {
             disciples multiplied greatly in Jerusalem, and a great many of the
             priests became obedient to the faith. (Acts 6:7)
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

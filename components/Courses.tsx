@@ -32,11 +32,11 @@ const Courses = () => {
 
   return (
     <section
-      id="courses"
+      id="programs"
       className="bg-white text-[#428c9d] py-20 md:py-32 flex flex-col items-center"
     >
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">Our Courses</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">Our Programs</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <motion.div
             ref={ref}
@@ -46,9 +46,9 @@ const Courses = () => {
             className="box bg-white text-[#428c9d] border rounded-lg"
           >
             <CardHeader>
-              <CardTitle>Basic Leadership Course</CardTitle>
+              <CardTitle>Basic Leadership Program</CardTitle>
               <CardDescription className="text-[#6b7280]">
-                A foundational Course designed to help you understand Self
+                A foundational program designed to help you understand Self
                 Leadership.
                 <br /> <br />{" "}
                 <span className="font-semibold text-[#428c9d]">
@@ -74,9 +74,9 @@ const Courses = () => {
             className="box bg-white text-[#428c9d] border rounded-lg flex flex-col justify-between"
           >
             <CardHeader>
-              <CardTitle>Advanced Leadership Course</CardTitle>
+              <CardTitle>Advanced Leadership Program</CardTitle>
               <CardDescription className="text-[#6b7280]">
-                An In-depth course for experienced leaders on how to leader
+                An In-depth program for experienced leaders on how to leader
                 people, organizations and teams in achieving set goals.
                 <br /> <br />{" "}
                 <span className="font-semibold text-[#428c9d]">
@@ -102,9 +102,9 @@ const Courses = () => {
             className="box bg-white text-[#428c9d] border rounded-lg md:col-span-2 lg:col-span-1 flex flex-col justify-between"
           >
             <CardHeader>
-              <CardTitle>Executive Leadership Course</CardTitle>
+              <CardTitle>Executive Leadership Program</CardTitle>
               <CardDescription className="text-[#6b7280]">
-                A comprehensive course work that trains leaders on how to lead
+                A comprehensive program work that trains leaders on how to lead
                 other leaders and conglomerates. 
                 <br /> <br />{" "}
                 <span className="font-semibold text-[#428c9d]">

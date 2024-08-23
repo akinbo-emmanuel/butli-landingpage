@@ -37,11 +37,11 @@ const Header = () => {
             About
           </Link>
           <Link
-            href="#courses"
+            href="#programs"
             className="hover:underline hover:text-[#428c9d]"
             prefetch={false}
           >
-            Courses
+            Programs
           </Link>
           <Link
             href="#calendar"
