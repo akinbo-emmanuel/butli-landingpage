@@ -15,8 +15,8 @@ const Hero = () => {
           kingdom leaders in their communities and organizations.
         </p>
         <div className="flex gap-4 fade-in-5 animate-slideUp">
-          <Link href="#courses">
-            <Button aria-label="Explore Courses">Explore Courses</Button>
+          <Link href="#programs">
+            <Button aria-label="Explore Programs">Explore Programs</Button>
           </Link>
 
           <Link href="#contact">
